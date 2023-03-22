@@ -17,13 +17,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 0;
 }
 
 .profilecard {
-    max-width: 100%;
+    max-width: 95%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -50,20 +50,20 @@ main {
 }
 
 .profilename {
-    margin: -50px auto 25px;
+    margin: -3.125em auto 1.5625em;
     padding: 0;
 }
 
 .profilename>h1,
 .profilestats>div>h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .profilename>h2 {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .profilestats {
@@ -73,7 +73,7 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding: 15px;
+    padding: 0.9375em;
 }
 
 .profilestats>div>h3 {
@@ -89,11 +89,11 @@ p {
 
 p {
     margin: 0;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: center;
     margin: 1.5em;
 }
