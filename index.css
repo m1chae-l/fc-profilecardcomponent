@@ -1,0 +1,103 @@
+body {
+    font-size: 1.125em;
+    font-family: Kumbh Sans;
+    display: grid;
+    place-content: center;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    min-height: 100vh;
+    /*Had to check another repo for a method to make add this*/
+    background-position: right 50vw bottom 40vh, left 50vw top 45vh;
+    background-repeat: no-repeat, no-repeat;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+
+.profilecard {
+    max-width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+}
+
+.bannerimg {
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.profileinfo {
+    background-color: white;
+    border-bottom: 1px solid hsl(0, 0%, 59%, .3);
+    text-align: center;
+}
+
+.profilephoto {
+    top: -50px;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profilename {
+    margin: -50px auto 25px;
+    padding: 0;
+}
+
+.profilename>h1,
+.profilestats>div>h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profilename>h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.profilestats {
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 15px;
+}
+
+.profilestats>div>h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.alt,
+p {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 1.5em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
